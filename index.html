@@ -40,10 +40,11 @@
         -moz-transition: all 1s ease-out;
         -o-transition: all 1s ease-out;
         transition: all 1s ease-out;
-        padding: 10px;
         width: 100%;
         height: auto;
         max-width: 80%;
+        filter: blur(1px) invert(.77) sepia(1);
+        -webkit-mask-image: linear-gradient(black, transparent, black);
       }
       p {
         position: absolute;
